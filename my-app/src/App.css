@@ -1,0 +1,139 @@
+.Zaon {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 40%;
+  word-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background: #dc3545;
+
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+}
+.display {
+  font-size: 34px;
+  color: white;
+}
+.heading {
+  font-size: 32px;
+  color: white;
+}
+.add {
+  background-color: #05ca1f;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.add:hover {
+  background-color: aqua;
+}
+.Minus {
+  margin: 0 10px;
+  background-color: #f88e99;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.Minus:hover {
+  background-color: red;
+}
+.reset {
+  background-color: #c5f050;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.reset:hover {
+  color: blue;
+}
+.buttons {
+  margin-top: 13rem;
+}
+.Headers {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  text-align: center;
+  margin-top: 6rem;
+  padding-left: 4rem;
+}
+.left h2 {
+  width: 70%;
+  word-wrap: wrap;
+  margin-left: 10%;
+}
+.left p {
+  width: 90%;
+  font-size: 16px;
+  margin: 2rem 0 4rem 0;
+}
+.left button {
+  width: 30%;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  background-color: #05ca1f;
+  color: white;
+  margin-left: 0%;
+}
+.left button:hover {
+  background-color: #dc3545;
+}
+.footer {
+  background: black;
+  height: 30px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+.right img {
+  width: 90%;
+  border-radius: 10px;
+}
+.display_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.my-text {
+  padding-left: 2rem;
+  width: 60%;
+}
+.my-text h3 {
+  margin-top: -4rem;
+  margin-left: 8rem;
+}
+.my-text p {
+  margin-top: 2rem;
+}
